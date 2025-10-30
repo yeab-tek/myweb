@@ -1,0 +1,65 @@
+
+body {
+    /* Set a uniform background color for ALL pages */
+    background-color: #f4f4f4; /* A light grey color */
+    
+    /* Alternatively, to use a background image: */
+    /* background-image: url('college_background.jpg'); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* background-attachment: fixed; */
+    
+    font-family: Arial, sans-serif; /* A basic readable font */
+    margin: 0; /* Remove default browser margin */
+    padding: 0;
+}
+
+/* Header and Logo Styling */
+header {
+    background-color: #004d99; /* A professional blue color */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header img {
+    /* Style for the college logo */
+    margin-top: 10px;
+    border-radius: 50%; /* Makes the logo round */
+}
+
+/* Navigation Tab Styling */
+nav ul {
+    list-style-type: none; /* Removes the bullet points */
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333; /* Dark background for the tab bar */
+}
+
+nav li {
+    float: left; /* Makes the list items line up horizontally */
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none; /* Removes the underline from links */
+}
+
+/* Change color on hover for visual feedback */
+nav li a:hover {
+    background-color: #111;
+}
+
+/* Style for the currently active/home page link */
+nav li a[href="index.html"] {
+    background-color: #007bff; /* Highlight the Home page tab */
+}
+
+/* Content Area Styling */
+main {
+    padding: 20px;
+}
